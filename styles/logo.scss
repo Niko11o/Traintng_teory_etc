@@ -3,12 +3,12 @@
 
   &_header{
 
-    max-width: 220px;
+    max-width: 22rem;
     position:relative;
     z-index: 2;
 
-    @media all and (max-width: 1200px){
-      max-width: 144px;
+    @media all and (max-width: $media-m){
+      max-width: 14.4rem;
     }
 
   }

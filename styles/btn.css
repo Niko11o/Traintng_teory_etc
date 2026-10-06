@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 14px;
+  padding: 20px 35px;
+  font-size: 20px;
+}
+@media all and (max-width: 1200px) {
+  .btn {
+    display: none;
+  }
+}
+.btn_outline {
+  background-color: transparent;
+  border: 1px solid black;
+}
+.btn_header {
+  margin-left: 40px;
+}/*# sourceMappingURL=btn.css.map */
