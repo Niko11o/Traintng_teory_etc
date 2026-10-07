@@ -1,17 +1,58 @@
 .btn {
-  border-radius: 14px;
-  padding: 20px 35px;
-  font-size: 20px;
+  border-radius: 1.4rem;
+  padding: 2rem 3.5rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline-width: 0;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 500px) {
   .btn {
-    display: none;
+    width: 100%;
+  }
+}
+@media (hover: hover) {
+  .btn {
+    transition: all 0.3s ease-out;
+  }
+  .btn:hover, .btn:active {
+    transition: all 0.3s ease-in;
+  }
+}
+.btn_primary {
+  color: #FFFFFF;
+  background-color: #191A23;
+}
+@media (hover: hover) {
+  .btn_primary:hover, .btn_primary:active {
+    color: #000000;
+    background-color: #B9FF66;
+  }
+}
+.btn_secondary {
+  background-color: #B9FF66;
+}
+@media (hover: hover) {
+  .btn_secondary:hover, .btn_secondary:active {
+    color: #FFFFFF;
+    background-color: #191A23;
   }
 }
 .btn_outline {
-  background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid #191A23;
+}
+@media (hover: hover) {
+  .btn_outline:hover, .btn_outline:active {
+    color: #FFFFFF;
+    background-color: #191A23;
+  }
 }
 .btn_header {
-  margin-left: 40px;
+  margin-left: 4rem;
+}
+@media all and (max-width: 1200px) {
+  .btn_header {
+    display: none;
+  }
 }/*# sourceMappingURL=btn.css.map */

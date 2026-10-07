@@ -1,7 +1,7 @@
 .nav {
   display: flex;
-  font-size: 20px;
-  gap: 40px;
+  font-size: 2rem;
+  gap: 4rem;
   align-items: center;
   margin-left: auto;
 }
@@ -12,11 +12,11 @@
     top: 0;
     flex-direction: column;
     background-color: white;
-    row-gap: 40px;
-    padding: 100px 60px 40px;
+    row-gap: 4rem;
+    padding: 10rem 6rem 4rem;
     height: 100vh;
     width: 100%;
-    max-width: 300px;
+    max-width: 30rem;
     z-index: 1;
     transform: translateX(100%);
     transition: all 0.3s ease;

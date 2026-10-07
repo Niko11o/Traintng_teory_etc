@@ -1,13 +1,16 @@
 .logo {
   width: 100%;
+  max-width: 22rem;
+}
+@media all and (max-width: 1200px) {
+  .logo {
+    max-width: 14.4rem;
+  }
 }
 .logo_header {
-  max-width: 220px;
   position: relative;
   z-index: 2;
 }
-@media all and (max-width: 1200px) {
-  .logo_header {
-    max-width: 144px;
-  }
+.logo_footer {
+  max-width: 18rem;
 }/*# sourceMappingURL=logo.css.map */
