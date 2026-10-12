@@ -384,22 +384,17 @@ p {
     row-gap: 1rem;
   }
 }
-.section_first .section__container_second .section__cards {
+.section_second .section__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   margin-bottom: 12rem;
 }
 @media all and (max-width: 1200px) {
-  .section_first .section__container_second .section__cards {
+  .section_second .section__cards {
     margin-bottom: 7rem;
     grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
     gap: 3rem;
-  }
-}
-@media all and (max-width: 500px) {
-  .section_first .section__container_second .section__cards {
-    grid-template-columns: 1fr;
   }
 }
 .section__img {

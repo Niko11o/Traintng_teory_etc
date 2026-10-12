@@ -29,12 +29,13 @@
 
              @media all and (max-width: $media-s){
                 row-gap: 1rem;
-
-
             }
         
-    &_second {
-        #{$this}__cards {
+        }
+    }
+
+    &_second{
+            #{$this}__cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 4rem;
@@ -44,13 +45,7 @@
             margin-bottom: 7rem;
             grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
             gap: 3rem;
-        }
-
-        @media all and (max-width: $media-s) {
-            grid-template-columns: 1fr;
-      }
-    }
-  }
+            }
         }
     }
 
