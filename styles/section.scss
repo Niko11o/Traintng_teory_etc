@@ -32,6 +32,25 @@
 
 
             }
+        
+    &_second {
+        #{$this}__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        margin-bottom: 12rem;
+
+        @media all and (max-width: $media-m) {
+            margin-bottom: 7rem;
+            grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
+            gap: 3rem;
+        }
+
+        @media all and (max-width: $media-s) {
+            grid-template-columns: 1fr;
+      }
+    }
+  }
         }
     }
 
@@ -48,6 +67,22 @@
 
         @media all and (max-width: $media-s){
             margin-bottom: 1rem;
+        }
+    }
+
+    &__header {
+        display: flex;
+        column-gap: 4rem;
+        max-width: 80rem;
+        margin-bottom: 8rem;
+
+        @media all and (max-width: $media-m) {
+            flex-direction: column;
+            row-gap: 3rem;
+            margin: 0 auto 4rem;
+            justify-content: center;
+            text-align: center;
+
         }
     }
 

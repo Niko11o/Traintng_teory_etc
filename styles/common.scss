@@ -76,6 +76,7 @@ h4 {
 
 p{
   font-size: $size-p;
+  margin: 0;
 
     @media all and (max-width: $media-s){
     font-size: $size-p-mob;
@@ -97,4 +98,6 @@ p{
   img{
     filter: grayscale(100);
   }
+
+
 }
